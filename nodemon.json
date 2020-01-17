@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_PASS": "littlezoo",
+        "JWT_KEY": "secret"
+    }
+}

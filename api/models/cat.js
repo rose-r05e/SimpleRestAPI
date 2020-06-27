@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const catSchema = mongoose.Schema({
-    _id: mongoose.Types.ObjectId,
+    _id: mongoose.Schema.Types.ObjectId,
     name: {
         type: String, 
         required: true
